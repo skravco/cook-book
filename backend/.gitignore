@@ -1,33 +1,38 @@
-# Python-related
-__pycache__/
+# Python bytecode files
 *.pyc
 *.pyo
-*.pyd
+__pycache__/
+.pytest_cache/
 
 # Virtual environment
 venv/
-env/
-*.env
 
-# Logs & Cache
+# Environment variables & secrets
+.env
+
+# Database files
+*.db
+
+# Log files
 *.log
-*.pid
-*.swp
-*.json
+
+# OS-specific files
+.DS_Store  # For macOS
+Thumbs.db  # For Windows
 
 # Environment variables
 .env
-.env.local
-.env.development
-.env.production
+*.env
 
 # IDE/editor specific files
 .vscode/
 .idea/
-*.iml
 
-# Byte-compiled / optimized / DLL files
-*.pyc
-*.pyo
-*.pyd
+# Other files to exclude
+*.json
 
+~
+~
+~
+~
+~
