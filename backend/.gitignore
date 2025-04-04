@@ -1,1 +1,33 @@
-venv
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Logs & Cache
+*.log
+*.pid
+*.swp
+*.json
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.iml
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
